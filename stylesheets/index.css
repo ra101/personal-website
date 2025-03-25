@@ -3,6 +3,12 @@ body {
     background-color: white;
 }
 
+
+h1 {
+    font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace;
+    font-size: 2rem;
+}
+
 .para {
     line-height: 3.5rem;
     margin-bottom: 2.5rem;
@@ -81,14 +87,14 @@ del {
 .hi {
     color:#444;
     font-weight: 500;
-    font-size: 2.85rem;
+    font-size: 2.5rem;
     border-radius: 0.2rem;
 }
 
 .hi::before{
     content: ">";
     color: blueviolet;
-    margin-left: -2rem;
+    margin-left: -1.5rem;
 }
 
 
@@ -114,7 +120,7 @@ del {
 }
 
 .name {
-    font-size: 3rem;
+    font-size: 2.5rem;
     color:#000;
 }
 
@@ -165,7 +171,7 @@ del {
 ul {
     margin-top:0;
     margin-left:2rem;
-    font-size: 2rem;
+    font-size: 1.75rem;
 }
 
 .last {
